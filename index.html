@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Portafolio | Alonso Astete </title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#trabajos">Trabajos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+
+    <section id="sobre-mi" aria-labelledby="titulo-sobre-mi">
+      <h1 id="titulo-sobre-mi">Sobre mí</h1>
+      <p> Alonso Joaquin Astete Tapia </p>
+      <p>Carrera: Ingeniería Civil en Informática · Semestre 2</p>
+      <p> Soy Alonso, tengo 18 años y este año comencé con la carrera de Ingeniería Civil en Informática en la Universidad Católica
+        de Temuco. Voy en mi segundo semestre de carrera, y en este semestre he aprendido el manejo y uso de herramientas como HTML
+        y CSS en profundidad y, además, POO (Programación Orientada a Objetos) en el ramo 
+        de Programación 2.
+      </p>
+    </section>
+
+    <section id="trabajos" aria-labelledby="titulo-trabajos">
+      <h2 id="titulo-trabajos">Trabajos del semestre</h2>
+
+      <article>
+        <h3>Página dedicada a Doom</h3>
+        <p> Cree una página sencilla a metodo de practica para ejercitar HTML y CSS. Organicé toda la estructura de la página utilizando
+          HTML5, además incluí imágenes locales. Utilizando CSS logré darle una estetica retro y antigua a la página al más puro estilo
+          de las primeras páginas de los 2000'. 
+        </p>
+        <a href="#">https://github.com/kepchupjbmostaza/Creaci-n-de-p-gina-de-Doom.git</a>
+      </article>
+
+      <article>
+        <h3>Simulación simple de tienda online utilizando POO</h3>
+        <p>Cree una pequeña simulación a metodo de ejercicio en donde se simula una tienda online utilizando clases, sublclases,
+          herencias y polimorfismo.
+        </p>
+        <a href="#">https://github.com/kepchupjbmostaza/Ejercicio-POO.git</a>
+      </article>
+
+    </section>
+
+    <section id="contacto" aria-labelledby="titulo-contacto">
+      <h2 id="titulo-contacto">Contacto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>
