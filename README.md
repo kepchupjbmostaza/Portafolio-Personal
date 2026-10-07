@@ -1,4 +1,4 @@
-#Portafolio personal
+## Portafolio personal
 Evaluación 2 - Desarrollo de Frontend (ICINF1107) - Ingeniería Civil en Informática, Universidad Católica de Temuco
 
 ## Descripción
